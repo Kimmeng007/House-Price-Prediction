@@ -14,10 +14,10 @@ This project was created for the [**Kaggle Housing Prices Competition for Kaggle
 
 ---
 
-## 📂 Notebook
+## Notebook
 View the full notebook in the src folder.
 
 ---
 
-## 🏆 Acknowledgments
-Special thanks to my teammates at ENSIIE **Tito KOH, Alessio BALDINI and lamiaa EL OUATILI** for their collaboration and contributions to this project.
+## Acknowledgments
+Special thanks to my teammates at ENSIIE, **Tito KOH, Alessio BALDINI and lamiaa EL OUATILI**, for their collaboration and contributions to this project.
