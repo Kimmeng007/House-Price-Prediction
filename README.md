@@ -15,7 +15,7 @@ This project was created for the [**Kaggle Housing Prices Competition for Kaggle
 ---
 
 ## Notebook
-View the full notebook in the src folder.
+View the full notebook in the house_price_prediction.ipynb file above.
 
 ---
 
