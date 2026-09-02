@@ -12,8 +12,8 @@ This project was created for the [Kaggle Housing Prices Competition for Kaggle L
 
 ## Key Visualizations
 
-**Correlation with SalePrice** — Heatmap of the numerical features most correlated with SalePrice. `OverallQual`, `GrLivArea`, `GarageCars`/`GarageArea`, and `TotalBsmtSF` stand out as the strongest predictors.
-![Correlation heatmap of top features with SalePrice](assets/correlation_heatmap.png)
+**Correlation with SalePrice** — Numerical features ranked by their correlation with SalePrice. `GrLivArea`, `GarageCars`/`GarageArea`, and `TotalBsmtSF` stand out as the strongest predictors; `KitchenAbvGr` and `EnclosedPorch` are the only two with a (weak) negative correlation.
+![Feature correlation with SalePrice, sorted bar chart](assets/saleprice_correlation_bar.png)
 
 **Target distribution** — SalePrice is right-skewed, with most homes selling between roughly $100K–$250K and a long tail of higher-priced outliers, motivating a log transform before modeling.
 ![Distribution of SalePrice](assets/saleprice_distribution.png)
