@@ -24,6 +24,30 @@ This project was created for the [Kaggle Housing Prices Competition for Kaggle L
 **Predicted vs. actual prices** — Predictions from the tuned XGBoost model track closely with actual sale prices along the ideal line, with a slight spread at the highest price points.
 ![Actual vs predicted sale prices from XGBoost regression](assets/predicted_vs_actual.png)
 
+## Results
+
+All models were evaluated on the same held-out test split using RMSE and R². **XGBoost** performed best and was used for the final Kaggle submission.
+
+| Model | RMSE | R² |
+|---|---:|---:|
+| Support Vector Regression | 41,597.76 | 0.7225 |
+| Decision Tree | 33,629.45 | 0.8186 |
+| Random Forest | 22,553.24 | 0.9184 |
+| Ridge Regression | 20,209.02 | 0.9345 |
+| Gradient Boosting | 19,500.06 | 0.9390 |
+| Linear Regression | 19,671.53 | 0.9379 |
+| Lasso Regression | 19,068.94 | 0.9417 |
+| Elastic Net | 19,072.32 | 0.9417 |
+| **XGBoost (final)** | **18,490.73** | **0.9452** |
+
+## Tech Stack
+
+- **Python**
+- **Pandas / NumPy**
+- **Scikit-learn**
+- **XGBoost**
+- **Matplotlib / Seaborn**
+
 ## Notebook
 View the full notebook in the house_price_prediction.ipynb file above.
 
