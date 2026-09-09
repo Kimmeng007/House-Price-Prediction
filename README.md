@@ -53,3 +53,4 @@ View the full notebook in the house_price_prediction.ipynb file above.
 
 ## Acknowledgments
 Special thanks to my teammates at ENSIIE, **Tito KOH, Alessio BALDINI and lamiaa EL OUATILI**, for their collaboration and contributions to this project.
+
